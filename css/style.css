@@ -1,0 +1,103 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    margin-top: -30rem;
+    position: absolute;
+    color: #910505;
+    text-align: center;
+    margin-bottom: -1rem;
+}
+.texto{
+    font-size: .8em;
+    color: #012c1a;
+    margin-top: 1rem;
+}
+
+/* Estilos del formulario */
+form {
+    background-color: rgb(5, 102, 102);
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2.5rem;
+    width: 25em;
+    text-align: center;
+}
+
+label {
+    color: black;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Estilos de mensajes */
+.mensajes p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.resultado {
+    font-weight: bold;
+}
+
+.pista {
+    background-color: #2980b9;
+    border-radius: 1rem;
+    color: black;
+}
+
+.previa {
+    background-color: limegreen;
+    border-radius: .5rem;
+    color: black;
+}
+
+/* Estilos del botón de reinicio */
+button {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ADIVINA EL NÜMERO</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1>ADIVINA EL NÚMERO
+            <p class="texto">Hemos agregado un numero entre el 1 y 100,
+                y tenes que adivinarlo en diez intentos.
+            </p>
+        </h1>
+        
+        <form>
+            <div>
+                <label for="numero">Digite el Numero</label>
+                <input type="number" class="numero" id="numero"
+                    min="1" max="100" required>
+                <input type="submit" class="btnEnviar" value="Enviar Respuesta">
+            </div>
+
+            <div class="mensajes">
+                <p class="resultado"></p>
+                <p class="pista"></p>
+                <p class="previa"></p>
+            </div>
+        </form>
+        <script src="javascript/scrpt.js"></script>
+    </body>
+</html>
